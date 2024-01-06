@@ -62,6 +62,7 @@
             android:layout_marginTop="50dp"
             android:textColor="#000000"
             android:textSize="17dp"
+            android:textStyle="bold"
             android:text="나의 고민"/>
 
     </RelativeLayout>
@@ -74,6 +75,7 @@
         android:textColor="#000000"
         android:textSize="18dp"
         android:gravity="center"
+        android:textStyle="bold"
         android:text="새 학기에 새로운 친구를\n사귀는게 너무 힘들어요.."/>
 
     <RelativeLayout

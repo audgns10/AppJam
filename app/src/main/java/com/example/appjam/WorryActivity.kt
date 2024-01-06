@@ -21,6 +21,6 @@ class WorryActivity : AppCompatActivity() {
         val imageView: ImageView = findViewById(R.id.profile)
         imageView.setImageResource(R.drawable.baseline_person_24)
 
-        val menuBar: ImageView = findViewById(R.id.menuBar)
+//        val menuBar: ImageView = findViewById(R.id.menuBar)
     }
 }

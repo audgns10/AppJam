@@ -16,6 +16,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="타인의 방"
+        android:textStyle="bold"
         android:textColor="#000000"
         android:textSize="17dp"
         android:gravity="center"
@@ -31,6 +32,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="남친이 제 친구랑 바람을 폈어요\n둘 다 죽여버릴까요??"
+            android:textStyle="bold"
             android:textSize="20dp"
             android:textColor="#000000"
             android:gravity="center"
@@ -85,6 +87,7 @@
                 android:layout_marginTop="40dp"
                 android:gravity="center"
                 android:text="D - 12"
+                android:textStyle="bold"
                 android:textColor="#000000"
                 android:textSize="26dp"
                 android:layout_centerHorizontal="true"/>
