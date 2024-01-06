@@ -11,24 +11,15 @@
         android:layout_height="match_parent"
         android:background="@drawable/your_room_img"/>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="친구들이 제 뒷담을 깠어요...."
-        android:textColor="#000000"
-        android:textSize="20dp"
-        android:gravity="center"
-        android:layout_marginTop="40dp"/>
-
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="95dp">
+        android:layout_marginTop="60dp">
 
         <ImageView
             android:layout_width="350dp"
-            android:layout_height="340dp"
+            android:layout_height="380dp"
             android:background="@drawable/memo" />
 
         <TextView
@@ -39,6 +30,13 @@
             android:textSize="15dp"
             android:text="이 내용은 예시입니다\n이 내용은 예시입니다"
             android:layout_centerInParent="true"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/baseline_bookmark_24"
+            android:layout_marginLeft="290dp"
+            android:layout_marginTop="20dp"/>
 
     </RelativeLayout>
 
@@ -61,7 +59,7 @@
                 android:layout_marginBottom="40dp"
                 android:layout_marginTop="40dp"
                 android:gravity="center"
-                android:text="괜찮아요..!"
+                android:text="힘내세요!!"
                 android:textColor="#000000"
                 android:textSize="26dp"
                 android:layout_centerHorizontal="true"/>
