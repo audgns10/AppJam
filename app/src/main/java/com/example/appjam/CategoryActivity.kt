@@ -3,9 +3,9 @@ package com.example.appjam
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class yourRoom : AppCompatActivity() {
+class CategoryActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_your_room)
+        setContentView(R.layout.activity_category)
     }
 }
