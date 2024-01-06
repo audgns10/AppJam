@@ -12,12 +12,15 @@ class WorryActivity : AppCompatActivity() {
 
     lateinit var navigationView: NavigationView
     lateinit var drawerLayout: DrawerLayout
-    @SuppressLint("MissingInflatedId")
+
+    @SuppressLint("MissingInflatedId", "WrongViewCast")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_worry)
 
         val imageView: ImageView = findViewById(R.id.profile)
         imageView.setImageResource(R.drawable.baseline_person_24)
+
+        val menuBar: ImageView = findViewById(R.id.menuBar)
     }
 }
