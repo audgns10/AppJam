@@ -26,6 +26,13 @@
         <activity
             android:name=".YourRoomActivity"
             android:exported="false" />
+      android:name=".WriteActivity"
+            android:exported="false"
+            android:theme="@style/Base.Theme.AppJam"/>
+        <activity
+            android:name=".KeyWordActivity"
+            android:exported="false"
+            android:theme="@style/Base.Theme.AppJam" />
         <activity
             android:name=".MainActivity"
             android:exported="false"
