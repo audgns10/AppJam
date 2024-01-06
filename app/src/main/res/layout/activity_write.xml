@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:background="@drawable/upbeach"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="145dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="140.41dp"
+        android:background="@drawable/whaleimg"
+        app:layout_constraintTop_toTopOf="@id/whaletop"
+        app:layout_constraintBottom_toBottomOf="@id/whalebottom"
+        app:layout_constraintStart_toStartOf="@id/whalestart"
+        app:layout_constraintEnd_toEndOf="@id/whaleend"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/whaletop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6219"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/whalebottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.8313"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/whalestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.2444"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/whaleend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.7583"/>
+
+    <EditText
+        android:id="@+id/edittextsubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="445dp"
+        android:background="@drawable/bigbox"
+        android:hint="당신이 가진 고민을 자세히 말해주세요"
+        android:paddingBottom="200dp"
+        android:textAlignment="center"
+        android:textColorHint="#7F7F7F"
+        android:textSize="13dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <EditText
+        android:id="@+id/edittexttitle"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:hint="고민의 제목을 지어주세요"
+        android:paddingBottom="30dp"
+        android:textColorHint="#7F7F7F"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/cancelbtn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/cancelbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/checkbtn"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/img"
+        android:padding="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

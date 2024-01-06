@@ -126,8 +126,20 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         app:layout_constraintGuide_percent="0.3000"/>
-    
+
+    <ImageButton
+        android:id="@+id/nextpagebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:background="@drawable/baseline_arrow_forward_24"
+        app:layout_constraintBottom_toBottomOf="@id/edittextbottom"
+        app:layout_constraintStart_toStartOf="@id/edittextend"
+        app:layout_constraintTop_toTopOf="@id/edittexttop"
+        app:layout_constraintVertical_bias="0.6" />
+
     <EditText
+        android:id="@+id/editwords"
         android:layout_width="220dp"
         android:layout_height="40dp"
         android:background="@drawable/edittext_round_corner"
